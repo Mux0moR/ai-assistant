@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Project specific
+.env
+data/
+knowledge/*
+!knowledge/googy_ai_info.txt
+!knowledge/earth_facts.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+uv.lock

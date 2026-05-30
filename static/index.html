@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Googy AI Pro Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="landing-container">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/robot-assistant-illustration-download-in-svg-png-gif-file-formats--artificial-intelligence-chatbot-pack-science-technology-illustrations-4131561.png" alt="Friendly Robot" class="robot-image">
+        <h1>Добро пожаловать в Googy AI Pro</h1>
+        <p>Ваш персональный ассистент с искусственным интеллектом.</p>
+        <p style="color: #666; font-size: 0.9em;">Нажмите на каплю в углу, чтобы начать общение.</p>
+    </div>
+
+    <div id="geeko-widget" class="collapsed">
+        <!-- Кнопка-Овал -->
+        <div id="geeko-drop">
+            <span>Googy AI Pro</span>
+        </div>
+        
+        <!-- Окно чата -->
+        <div id="chat-container">
+            <div id="chat-header">
+                <span>Googy AI Pro Assistant</span>
+                <button id="close-chat">&times;</button>
+            </div>
+            <div id="chat-messages">
+                <div class="message bot">Привет! Я ваш помощник Googy AI Pro. Задайте мне вопрос по документации.</div>
+            </div>
+            <div id="chat-input-area">
+                <input type="text" id="user-input" placeholder="Введите ваш вопрос...">
+                <button id="send-btn">➔</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
