@@ -2,7 +2,7 @@
 
 GoogyAIPro — это локальный ИИ-ассистент с веб-интерфейсом, работающий по технологии RAG (Retrieval-Augmented Generation). Он позволяет искать информацию в ваших собственных документах (PDF, TXT, MD) и отвечать на вопросы, используя мощь локальных моделей через Ollama.
 
-![GoogyAIPro Landing](https://cdni.iconscout.com/illustration/premium/thumb/robot-assistant-illustration-download-in-svg-png-gif-file-formats--artificial-intelligence-chatbot-pack-science-technology-illustrations-4131561.png)
+<img width="1000" height="991" alt="Screenshot From 2026-05-30 13-27-57" src="https://github.com/user-attachments/assets/7662f274-1786-4775-b045-d279f3693dcd" />
 
 ## Особенности
 - **Полная локальность:** Ваши данные не покидают ваш компьютер.
